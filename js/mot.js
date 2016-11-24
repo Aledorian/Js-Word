@@ -13,11 +13,9 @@ document.getElementById('mot').style.color = 'red';
 
 document.getElementById('motMini').innerHTML = mot.toLowerCase();
 document.getElementById('motMini').style.fontWeight = "normal";
-document.getElementById('motMini').style.color = 'black';
 
 document.getElementById('motMaj').innerHTML = mot.toUpperCase();
 document.getElementById('motMaj').style.fontWeight = "normal";
-document.getElementById('motMaj').style.color = 'black';
 
 //--------------------------------------voyelles-----------------------------------//
 

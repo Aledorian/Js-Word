@@ -1,0 +1,26 @@
+span{
+  font-size: 20px;
+}
+td{
+  width: 250px;
+  height: auto;
+  border: 3px solid black;
+  text-align: center;
+}
+table{
+  width: auto;
+  height: auto;
+  border: 3px solid black;
+  border-spacing: collapse;
+  margin: auto;
+  margin-top: 15%
+}
+
+#histo{
+  float: right;
+  margin-top: 0px
+}
+
+#palindrome{
+  margin-left: 25%;
+}
