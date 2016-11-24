@@ -13,10 +13,11 @@ document.getElementById('mot').style.color = 'red';
 
 document.getElementById('motMini').innerHTML = mot.toLowerCase();
 document.getElementById('motMini').style.fontWeight = "normal";
+document.getElementById('motMini').style.color ="#ff3232"
 
 document.getElementById('motMaj').innerHTML = mot.toUpperCase();
 document.getElementById('motMaj').style.fontWeight = "normal";
-
+document.getElementById('motMaj').style.color = "#660000"
 //--------------------------------------voyelles-----------------------------------//
 
 var nbVoyelles = [];
