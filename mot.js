@@ -1,11 +1,11 @@
 var mot = prompt("Entrer un mot")
 
 function reset(){
-  var newMot = prompt("Entrer un nouveau mot !")
-  document.getElementById("mot").innerHTML = newMot;
-  document.getElementById('motMini').innerHTML = newMot.toLowerCase();
-  document.getElementById('motMaj').innerHTML = newMot.toUpperCase();
-}
+      var script = document.createElement("script");
+      script.src = "mot.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+  }
+
 
 document.getElementById('mot').innerHTML = mot;
 document.getElementById('mot').style.fontWeight = "bold";
@@ -64,7 +64,7 @@ for(var f =0; motmel.length < mot.length; f++){
   motbis = motbis.slice(0,num) + motbis.slice(num+1);
 }
 
-console.log(motmel);
+// console.log(motmel);
 document.getElementById('melange').innerHTML = motmel;
 
 //------------------------------Palindrome------------------------//
@@ -80,6 +80,7 @@ else{
   document.getElementById('palindrome').innerHTML = mot + ", " + inverse + " = " + "Ce mot n'est pas un palindrome"
 }
 
+document.getElementById('histo').innerHTML += mot + "<br>"
 
 
 
